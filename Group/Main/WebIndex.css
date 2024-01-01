@@ -1,0 +1,202 @@
+body {
+    background-color: #1f1f1f;
+}
+
+.MainTitleDiv {
+    background-color: #141414;
+    border: #ffcf0d solid;
+    height: 4rem;
+    width: 50rem;
+    border-radius: 3rem;
+    transition: 1s;
+}
+
+.TitleText {
+    color: #ffcf0d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    word-spacing: 0.5rem;
+    width: 50rem;
+    height: 1rem;
+    margin-top: -0rem;
+    transition: 1s;
+}
+
+.MainCenter {
+    background-color: #141414;
+    border: #ffcf0d solid;
+    width: 40rem;
+    height: 45rem;
+    border-radius: 5rem;
+    transition: 1s;
+}
+
+.MainCenterTitle {
+    color: #ffcf0d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem;
+    transition: 1s;
+}
+
+.Entry_Yba {
+    background-color: #1f1f1f;
+    color: #ffcf0d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: #ffcf0d solid;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.Server_Entry {
+    background-color: #1f1f1f;
+    color: #ffcf0d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: #ffcf0d solid;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.Group_Entry {
+    background-color: #1f1f1f;
+    color: #ffcf0d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: #ffcf0d solid;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.TierList_Entry {
+    background-color: #1f1f1f;
+    color: #ffcf0d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: #ffcf0d solid;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.Entry_Informtion {
+    background-color: #1f1f1f;
+    color: #ffcf0d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: #ffcf0d solid;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.Contact_Group {
+    background-color: #1f1f1f;
+    color: #ffcf0d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: #ffcf0d solid;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.Contact_Developer {
+    background-color: #1f1f1f;
+    color: #ffcf0d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: #ffcf0d solid;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.TheWorld_Class {
+    border: #ffcf0d solid;
+    border-radius: 5rem;
+    width: 25rem;
+    height: 30rem;
+    float: left;
+    margin-top: -35rem;
+    transition: 1s;
+    padding: 0.1rem;
+}
+
+.StarStand_Class {
+    border: #ffcf0d solid;
+    border-radius: 5rem;
+    width: 25rem;
+    height: 31rem;
+    float: right;
+    margin-top: -35rem;
+    transition: 1s;
+    padding: 0.1rem;
+}
+
+.Entry_Yba:hover {
+    border: #ffffff solid;
+    color: #ffffff;
+    width: 30rem;
+}
+
+.Server_Entry:hover {
+    border: #ffffff solid;
+    color: #ffffff;
+    width: 30rem;
+}
+
+.Group_Entry:hover {
+    border: #ffffff solid;
+    color: #ffffff;
+    width: 30rem;
+}
+
+.TierList_Entry:hover {
+    border: #ffffff solid;
+    color: #ffffff;
+    width: 30rem;
+}
+
+.Entry_Informtion:hover {
+    border: #ffffff solid;
+    color: #ffffff;
+    width: 30rem;
+}
+
+.Contact_Group:hover {
+    border: #ffffff solid;
+    color: #ffffff;
+    width: 30rem;
+}
+
+.Contact_Developer:hover {
+    border: #ffffff solid;
+    color: #ffffff;
+    width: 30rem;
+}
+
+.MainTitleDiv:hover {
+    border: #ffffff solid;
+    width: 55rem;
+    .TitleText {color: #ffffff;}
+}
+
+.MainCenterTitle:hover {
+    color: #ffffff;
+}
+
+.MainCenter:hover {
+    border: #ffffff solid;
+}
+
+.TheWorld_Class:hover {
+    border: #ffffff solid;
+}
+
+.StarStand_Class:hover {
+    border: #ffffff solid;
+}

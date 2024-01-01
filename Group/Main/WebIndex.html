@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <center>
+            <header>
+                <div class="MainTitleDiv">
+                    <h1 class="TitleText">Your Bizzare Adventure Group</h1>
+                </div>
+            </header>
+        </center>
+        <link rel="stylesheet" href="WebIndex.css">
+    </head>
+    <body>
+        <center>
+            <br>
+            <div class="MainCenter">
+                <h2 class="MainCenterTitle">Welcome To Main</h2>
+                <br>
+                <button class="Entry_Yba" id="Entry_Yba_Id" onmouseenter="ChangeTextOnHover('Entry_Yba_Id', 'roblox.com/games/2809202155')"
+                 onmouseleave="ChangeTextOnHover('Entry_Yba_Id', 'Enter Your bizzare adventure')" onclick="ChangeWindow('https://www.roblox.com/games/2809202155/S-F-REWORK-Your-Bizarre-Adventure')">Enter Your bizzare adventure</button>
+                <br><br>
+                <button class="Server_Entry" id="Server_Entry_Id" onmouseenter="ChangeTextOnHover('Server_Entry_Id', 'discord.gg/yba')"
+                onmouseleave="ChangeTextOnHover('Server_Entry_Id', 'Enter Your bizzare adventure Server')" onclick="ChangeWindow('https://discord.gg/yba')">Enter Your bizzare adventure Server</button>
+                <br><br>
+                <button class="Group_Entry" id="Group_Entry_Id" onmouseenter="ChangeTextOnHover('Group_Entry_Id', 'discord.gg/ttGmcxXRPn')"
+                onmouseleave="ChangeTextOnHover('Group_Entry_Id', 'Enter Your bizzare adventure Group')" onclick="ChangeWindow('https://discord.gg/ttGmcxXRPn')">Enter Your bizzare adventure Group</button>
+                <br><br>
+                <button class="TierList_Entry" id="TierList_Entry_Id" onmouseenter="ChangeTextOnHover('TierList_Entry_Id', 'Under Development')"
+                onmouseleave="ChangeTextOnHover('TierList_Entry_Id', 'Enter and see Your bizzare adventure TierLists')">Enter and see Your bizzare adventure TierLists</button>
+                <br><br>
+                <button class="Entry_Informtion" id="Entry_Information_Id" onmouseenter="ChangeTextOnHover('Entry_Information_Id', 'Under Development')"
+                onmouseleave="ChangeTextOnHover('Entry_Information_Id', 'Enter Information Site')">Enter Information Site</button>
+                <br><br>
+                <button class="Contact_Group" id="Contact_Group_Id" onmouseenter="ChangeTextOnHover('Contact_Group_Id', 'Contact via Discord: demov96')"
+                onmouseleave="ChangeTextOnHover('Contact_Group_Id', 'Contact Group Owner')" onclick="CopyToClipBoard('demov96')">Contact Group Owner</button>
+                <br><br>
+                <button class="Contact_Developer" id="Contact_Developer_Id" onmouseenter="ChangeTextOnHover('Contact_Developer_Id', 'Contact via Discord: islam_good_fr')"
+                onmouseleave="ChangeTextOnHover('Contact_Developer_Id', 'Contact Website Developer')" onclick="CopyToClipBoard('islam_good_fr')">Contact Website Developer</button>
+            </div>
+        </center>
+        <img src="Images/StarStand.png" alt="StarStand" class="StarStand_Class">
+        <img src="Images/TheWorldStand.png" alt="TheWorldStand" class="TheWorld_Class">
+        <script>
+            let Toggled = false;
+            async function ChangeTextOnHover(ID, TEXT) {
+                let Document_Id = document.getElementById(ID);
+                if (Toggled) {
+                    Document_Id.innerHTML = TEXT;
+                    Toggled = false;
+                } else {
+                    Document_Id.innerHTML = TEXT;
+                    Toggled = true;
+                };
+            };
+
+            async function ChangeWindow(URL_LINK) {
+                window.location.replace(URL_LINK);
+                alert(`Yba Group has sent you to the URL: ${URL_LINK}.`);
+            };
+
+            async function CopyToClipBoard(Clip) {
+                navigator.clipboard.writeText(Clip);
+                alert(`Copied Text: ${Clip}. to the Clipboard.`);
+            };
+        </script>
+    </body>
+</html>
